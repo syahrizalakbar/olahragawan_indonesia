@@ -1,0 +1,51 @@
+class Olahragawan {
+  String foto, nama, deskripsi;
+
+  Olahragawan(this.foto, this.nama, this.deskripsi);
+
+  // Data sample
+  static List<Olahragawan> getListOlahragawan() {
+    return [
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/id/thumb/2/20/Levi_Rumbewas.jpg/220px-Levi_Rumbewas.jpg",
+          "Levi Rumbewas",
+          "adalah seorang olahragawan atau atlet binaraga Indonesia yang terkenal pada tahun 80-an dan 90-an. Ia pernah dinobatkan sebagai binaragawan terbaik Indonesia.\n\nSetelah tidak aktif lagi dalam kompetisi binaraga, Levi kemudian mengabdikan dirinya sebagai pelatih atlet binaraga muda di Jayapura, Papua. Levi adalah ayah dari Raema Lisa Rumbewas, yang juga dikenal sebagai atlet angkat besi wanita Indonesia yang sering memenangi berbagai kejuaraan baik tingkat nasional maupun regional dan internasional. Levi Rumbewas menikah dengan Ida Korwa, seorang atlet angkat besi, yang juga berasal dari Papua. "),
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Yonex_IFB_2013_-_Eightfinal_-_Markis_Kido_-_Pia_Zebadiah_Bernadeth_%E2%80%94_Chris_Adcock_-_Gabrielle_White_13.jpg/220px-Yonex_IFB_2013_-_Eightfinal_-_Markis_Kido_-_Pia_Zebadiah_Bernadeth_%E2%80%94_Chris_Adcock_-_Gabrielle_White_13.jpg",
+          "Markis Kido",
+          "Markis Kido (lahir di Jakarta, 11 Agustus 1984; umur 35 tahun) adalah salah satu pemain bulu tangkis Indonesia. Ia adalah kakak kandung dari Bona Septano dan Pia Zebadiah Bernadet yang juga penghuni pelatnas Cipayung, Bona merupakan pemain ganda putra yang berpasangan dengan Mohammad Ahsan sedangkan adiknya Pia adalah pemain ganda campuran yang saat ini berpasangan dengan Fran Kurniawan. Ia merupakan putra Djumharbey Anwar, seorang perantau asal Minangkabau.\n\nSaat ini ia berpasangan dengan Hendra Setiawan dan menduduki peringkat pertama dunia IBF untuk ganda putra.Mereka adalah pasangan andalan Indonesia setelah pensiunnya pasangan Chandra Wijaya/Sigit Budiarto dan meredupnya pasangan Luluk Hadianto/Alvent Yulianto Chandra. Markis Kido bersama pasangannya Hendra Setiawan berhasil meraih Juara dunia tahun 2007 dan meraih medali emas pertama untuk Indonesia di Olimpiade Beijing 2008 untuk cabang bulu tangkis ganda putra. Di partai final pada tanggal 16 Agustus 2008 itu, mereka berhasil menaklukkan pasangan RRC Cai Yun/Fu Haifeng melalui pertarungan sengit 3 set dengan skor 12-21, 21-11, 21-16. "),
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/id/thumb/9/95/Edhi_Handoko.jpg/150px-Edhi_Handoko.jpg",
+          "Edhi Handoko",
+          "Edhi Handoko (lahir di Solo, Jawa Tengah, 28 Agustus 1960 – meninggal di Cibinong, Bogor, 17 Februari 2009 pada umur 48 tahun) adalah Grandmaster catur keempat Indonesia. \n\nGrand Master Edhi Handoko telah menorehkan prestasi baik nasional maupun internasional dan catatan prestasi terbaiknya dibuat saat meraih gelar Grand Master tahun 1994 dengan rating Elo 2.495. Ia meraih gelar Master Nasional pada tahun 1978, dilanjutkan Master FIDE dan Master Internasional pada tahun 1982. Handoko pernah empat kali menjadi juara nasional, yaitu pada tahun 1978, 1979, 1984 dan 1991. Ia juga merebut medali emas PON 1985 baik di perorangan maupun beregu dan merebut emas di nomor beregu pada PON 2004.\n\nDi tingkat internasional ia delapan kali membela tim Indonesia sebagai pemain yakni tahun 1980, 1982, 1984, 1986, 1988, 1992, 1994, dan 2000. Ia menjabat sebagai kapten tim putri Indonesia tahun 1990 dan kapten tim putra tahun 2006 dan 2008. Selain itu di tingkat internasional ia juga merebut medali perak beregu SEA Games 2003 dan juara beregu Antarkota Asia tahun 1993 dan 1994."),
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/id/thumb/b/b7/Joe_Taslim_in_Fast_and_Furious_6_Premiere_Los_Angeles_2013.jpg/230px-Joe_Taslim_in_Fast_and_Furious_6_Premiere_Los_Angeles_2013.jpg",
+          "Joe Taslim",
+          "Johannes Taslim (lahir di Palembang, 23 Juni 1981; umur 38 tahun), atau Joe Taslim adalah atlet dan aktor Indonesia. Atlet Judo peraih medali perak di SEA Games 2007 ini ikut berperan dalam film The Raid: Redemption (2012) dan Fast and Furious 6 (2013). \n\nTaslim sudah mempelajari bela diri sejak usia dini. Ia menguasai wushu, judo, taekwondo, dan pencak silat. Akan tetapi, ia lebih menyukai Judo dan keputusan ini menjadikannya atlet judo profesional. Ia memenangkan beberapa medali emas di kejuaraan nasional, satu medali emas di kejuaraan judo Asia Tenggara 1999, dan satu medali perak di SEA Games 2007. Taslim adalah anggota tim nasional judo Indonesia sejak 1997 sampai 2009. Setelah sempat mengalami cedera, ia memutuskan pensiun."),
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/id/4/4f/Anjasasmara.jpg",
+          "Anjas Asmara",
+          "Anjas Asmara merupakan salah satu pemain sepak bola Indonesia yang hampir mengantarkan Indonesia ke Olimpiade 1976. Bersama Suaib Rizal, kegagalan tendangan penaltinya ke gawang Korea Utara yang dijaga oleh Jin-In Chol pada final Pra Olimpiade di Stadion Senayan, Jakarta, membuyarkan impian Indonesia tampil di Olimpiade Montreal, Kanada.\nKesibukannya saat ini adalah melatih My Team, yang merupakan kumpulan pemain muda non-amatir yang direkrut dan diseleksi dari 6 kota di Indonesia. Program selanjutnya ialah menantang My Team Malaysia setelah lebaran nanti."),
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/id/thumb/9/99/Donny_Kesuma.jpg/220px-Donny_Kesuma.jpg",
+          "Donny Kusuma",
+          "Donny Kesuma Hudayat (lahir di Bandung, 6 Juni 1968; umur 51 tahun) adalah pemeran dan presenter televisi berkebangsaan Indonesia. Ia mengawali karier sebagai atlet Softball Indonesia. Donny menikah dengan Yuni Indriyati dan dikaruniai anak Muhammad Fadjrin Putra dan Godjan.\n\nDonny Kesuma Hidayat akan menjadi presenter Liputan Indonesia Pagi dan Malam di TV3 Bang Habib dan Carita (program feature) di InspirasiTV. "),
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/id/thumb/6/60/Daudy_Bahari.jpg/220px-Daudy_Bahari.jpg",
+          "Daudy Bahari",
+          "Daudy Bahari (lahir dengan nama Daudy Syach Bahari di Denpasar, 18 November 1983; umur 35 tahun) adalah petinju profesional Indonesia. Ia adalah mantan juara nasional kelas welter yunior tahun 2002 dan menjadi juara PABA kelas welter yunior sejak tahun 2003 sampai Maret 2007, saat Daudy merebut gelar interim WBO Asia Pacific, dan gelar PABA sudah dicabut karena Daudy tidak pernah mempertahankan gelarnya setelah itu.\n\nSebelum terjun ke tinju profesional, Daudy Bahari pernah tercatat sebagai anggota pelatnas timnas tinju Pertina.\n\nDaudy Bahari adalah putra ke-4 dari promotor dan pelatih tinju Daniel Bahari, dan adik dari mantan petinju amatir Pino Bahari. "),
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/id/thumb/2/2a/Alvin_Bahar.jpg/220px-Alvin_Bahar.jpg",
+          "Alvin Bahar",
+          "Alvin Bahar adalah seorang pembalap mobil Indonesia. Pembalap yang tergabung dalam tim Honda Racing Indonesia (HRI) ini merupakan juara nasional 2014 setelah memenangkan kejurnas balap mobil Indonesia Sentul Series of Motorsport (ISSOM) di Sirkuit Internasional Sentul, Bogor, Jawa Barat, pada akhir November 2014.\n\nAlvin juga pernah menjadi juara nasional pada tahun 2003. Dan sampai saat ini Alvin masih merupakan pemegang rekor juara nasional terbanyak, yaitu tahun 2006, 2007, dan 2008 bersama tim Honda Racing Indonesia, yang saat itu bernama Honda Fastron Racing Team.\n\nAlvin juga pernah tampil dalam film layar lebar bersama Inneke Koesherawati dan Febby Lawrence yang berjudul Roda-Roda Asmara di Sirkuit Sentul, film yang bercerita tentang seorang pembalap yang memulai kariernya dari seorang mekanik, namun penuh intrik kehidupan karena terlibat cinta segitiga.\n\nAlvin merupakan putra dari pasangan mantan pembalap dan pereli nasional Aswin Bahar dan Evie Bahar. "),
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/commons/a/a8/Taufik_Hidayat.jpg",
+          "Taufik Hidayat",
+          "Taufik Hidayat (lahir di Bandung, Jawa Barat, 10 Agustus 1981; umur 38 tahun) adalah mantan pemain bulu tangkis tunggal putra untuk Indonesia. Awalnya ia bermain di klub SGS Elektrik Bandung. Putra pasangan Aris Haris dan Enok Dartilah ini adalah peraih medali emas untuk Indonesia pada Olimpiade Athena 2004 dengan mengalahkan Seung Mo Shon dari Korea Selatan di babak final. Pada 21 Agustus 2005, dia menjadi juara dunia dengan mengalahkan pemain peringkat 1 dunia, Lin Dan di babak final, sehingga menjadi pemain tunggal putra pertama yang memegang gelar Kejuaraan Dunia BWF dan Olimpiade secara berturut-turut. Selain itu, ia juga memegang gelar juara tunggal putra Asian Games 2002 di Busan dan 2006 di Doha.\n\nTaufik mundur dari Pelatnas Cipayung pada 30 Januari 2009. Setelah itu ia menjadi pemain profesional. Pada November 2012, Taufik membangun sebuah pusat pelatihan bulu tangkis yang bernama Taufik Hidayat Arena (THA), berlokasi di Ciracas, Jakarta Timur. Taufik juga menjadi bintang iklan Yonex dalam pengadaan alat bulu tangkis.\n\nIa telah enam kali menjuarai Indonesia Terbuka: 1999, 2000, 2002, 2003, 2004, dan 2006. "),
+      Olahragawan(
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Yonex_IFB_2013_-_Eightfinal_-_Dionysius_Hayom_Rumbaka_%E2%80%94_Sony_Dwi_Kuncoro_18_%28cropped%29.jpg/400px-Yonex_IFB_2013_-_Eightfinal_-_Dionysius_Hayom_Rumbaka_%E2%80%94_Sony_Dwi_Kuncoro_18_%28cropped%29.jpg",
+          "Dionysius Hayom Rumbaka",
+          "Dionysius Hayom Rumbaka (lahir di Kulon Progo, 22 Oktober 1988; umur 30 tahun) adalah pemain bulu tangkis tunggal putra asal Indonesia. Dia kini merupakan anggota dari PB Djarum.\n\nSejak kelas 3SD, Hayom kecil sering bermain bulu tangkis bersama teman-temannya. Pamannya yang melihat minat sang keponakan memasukkannya ke klub bulu tangkis Pancing Sembada di Sleman. sejak kelas 5 pindah ke klub di tasikmalaya, kemudian kelas 2 SMP,diminta orang tuanya dari klub tersebut dan dimasukkan kembali ke Pancing Sembada hingga tahun 2005. Hayom yang sering ikut turnamen bulu tangkis lokal ternyata dipantau oleh pelatih dari PB Djarum dan merekrutnya. ")
+    ];
+  }
+}
